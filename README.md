@@ -6,6 +6,13 @@ pyBoxshade is a program for creating good-looking printouts from alignments of m
 In the program output, identical and similar residues in the multiple alignment are represented by different colors of letters or shadings (colours of background). There are many options concerning the kind of shading to be applied, whether to include a ruler line, sequence numbering, a consensus line and so on. 
 The original program (BOXSHADE) simply reads in a sequence, processes it, then quits. pyBoxshade holds the sequence in memory until a new sequence is read in, or the user quits. Any number of different outputs can be done with the same sequence; the output can be viewed dynamically before a version is stored as a file.
 
+### Process
+- Go to https://www.ncbi.nlm.nih.gov/protein/, type your protein name and hit "Search."
+- Once your protein of interest shows up, hit "Orthologs."
+- Go through the names of the species of interest, either by searching or selecting and add them to cart.
+- You can use the built-in COBALT protein alignment on the NCBI website or download the alignment as an alignment file (or you could download the fasta file and align it using something like T-Coffee).
+- Import the file into Boxshade and click "show image." You could edit the properties of the images by clicking the "Settings" button.
+
 ### Changes/upgrades
 Please contact me directly or via a bug report if you have any problems with the application, or if you wish to see additional functionality - if something seems worth doing, I am happy to consider it.
 
